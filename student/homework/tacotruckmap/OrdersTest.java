@@ -25,6 +25,7 @@ public class OrdersTest {
             throw new RuntimeException(":( testOne failed. You need to instanciate the arraylist when creating the tacos.");
         }
         if (tacos.size() > 0 ) {
+        	//added this tacos.toString() line to help with debugging
         	System.out.println(tacos.toString());
             throw new RuntimeException(":( testOne failed. Your list of tacos should be empty");
         }
